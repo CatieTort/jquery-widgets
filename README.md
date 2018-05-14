@@ -1,10 +1,10 @@
 # jquery-widgets
 Couple of projects to learn jquery
 
-###Tab-Widget###
+**Tab-Widget**
 
 
-###Slider-Widget###
+**Slider-Widget**
 
 
-###Overlay-Widget###
+**Overlay-Widget**
