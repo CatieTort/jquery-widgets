@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Jquery Overlay Widget</title>
+
+		<script src="../js/jquery-3.2.1.min.js"></script>
+		<script src="./overlay.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+
+		<link rel="stylesheet" href="./overlay.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="overlay-veil"></div>
+
+		<div class="btn-group" role="group">
+		  <button type="button" class="btn overlay-item_click" id="one" data-overlay="1">Left</button>
+		  <button type="button" class="btn overlay-item_click" id="two" data-overlay="2">Right</button>
+		</div>
+
+		<div class="overlay-component" data-overlayItem="1">
+			<div class="closeOverlay">Close</div>
+			<div class="overlay_content">
+				<h1>Master cleanse succulents</h1>
+				Slow-carb organic flannel man bun food truck post-ironic listicle aesthetic. Hammock thundercats bespoke skateboard actually butcher forage. Tumeric aesthetic quinoa man braid sriracha. Migas letterpress literally, lomo affogato succulents four dollar toast adaptogen hella normcore slow-carb plaid venmo man braid poke. Heirloom direct trade brooklyn mumblecore chartreuse shabby chic, vexillologist succulents lumbersexual thundercats skateboard put a bird on it distillery ethical street art. Mumblecore letterpress franzen, air plant scenester hammock forage mlkshk.
+			</div>
+		</div>
+
+		<div class="overlay-component" data-overlayItem="2">
+			<div class="closeOverlay">Close</div>
+			<div class="overlay_content">
+				<h1>Any little thing can be your friend.</h1>
+				Absolutely no pressure. You are just a whisper floating across a mountain. Didn't you know you had that much power? You can move mountains. You can do anything. Just let these leaves jump off the brush Just make little strokes like that. There he comes. There it is.
+			</div>
+		</div>
+
+	</body>
+</html>
